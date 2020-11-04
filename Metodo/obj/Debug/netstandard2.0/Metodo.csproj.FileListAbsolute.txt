@@ -1,0 +1,12 @@
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\bin\Debug\netstandard2.0\Metodo.deps.json
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\bin\Debug\netstandard2.0\Metodo.dll
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\bin\Debug\netstandard2.0\Metodo.pdb
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.AssemblyInfoInputs.cache
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.AssemblyInfo.cs
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.csproj.CoreCompileInputs.cache
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.dll
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.pdb
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.csprojAssemblyReference.cache
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\bin\Debug\netstandard2.0\Persistencia.dll
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\bin\Debug\netstandard2.0\Persistencia.pdb
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.csproj.CopyComplete

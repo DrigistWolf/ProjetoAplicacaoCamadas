@@ -1,0 +1,9 @@
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\bin\Debug\netstandard2.0\Persistencia.deps.json
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\bin\Debug\netstandard2.0\Persistencia.dll
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\bin\Debug\netstandard2.0\Persistencia.pdb
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfo.cs
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb
+C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache
