@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hc9qetdvuRNv8oeQ617QMAneVWZiSIrUUGZCceqXdjmySCbFrg1wiPlHv4qFn1dtNj+JF455vZiK/0W5L9DQqA==",
+  "dgSpecHash": "k86tJe3Oar8oY4n3NT44jwhBlMYfRfCc2eQZrC+qesn81Gd/lSHsXJSfGyEZXtsoiMN06oUHpiC2RxV1kamDdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fran_\\OneDrive\\Área de Trabalho\\Metodo\\Metodo\\Metodo.csproj",
+  "projectFilePath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Metodo\\Metodo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fran_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Fran_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
