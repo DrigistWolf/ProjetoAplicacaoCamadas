@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>MvcPart.Metodo</PackageId>
+    <Authors>DrigistWolf</Authors>
+    <Company>Autonoma</Company>
+    <Product>Lista de serviços</Product>
+    <Description>Pacotes nuget para estudo</Description>
+    <Copyright>MIT</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

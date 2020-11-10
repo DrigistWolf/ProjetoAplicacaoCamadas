@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ServicoPercistencia
+namespace Persistencia.Servicos
 {
     public class PercistenciaServ
     {

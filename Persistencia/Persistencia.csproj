@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>MVCPart.Persistencia</PackageId>
+    <Authors>DrigistTimesand</Authors>
+    <Company>Autonoma</Company>
+    <Product>Calsse de percistência</Product>
+    <Description>Primieto pacote exclusivo para estudos</Description>
+    <Copyright>2020</Copyright>
+    <NeutralLanguage>pt-BR</NeutralLanguage>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
   </PropertyGroup>
 
 </Project>

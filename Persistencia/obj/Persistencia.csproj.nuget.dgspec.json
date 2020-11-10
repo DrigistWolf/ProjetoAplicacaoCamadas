@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Persistencia\\Persistencia.csproj",
-        "projectName": "Persistencia",
+        "projectName": "MVCPart.Persistencia",
         "projectPath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Fran_\\.nuget\\packages\\",
         "outputPath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Persistencia\\obj\\",
@@ -21,8 +21,9 @@
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Nupak": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {

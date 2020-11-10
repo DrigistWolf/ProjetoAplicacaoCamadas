@@ -26,14 +26,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Persistencia/1.0.0": {
+      "MVCPart.Persistencia/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/Persistencia.dll": {}
+          "bin/placeholder/MVCPart.Persistencia.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Persistencia.dll": {}
+          "bin/placeholder/MVCPart.Persistencia.dll": {}
         }
       }
     }
@@ -183,7 +183,7 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Persistencia/1.0.0": {
+    "MVCPart.Persistencia/1.0.0": {
       "type": "project",
       "path": "../Persistencia/Persistencia.csproj",
       "msbuildProject": "../Persistencia/Persistencia.csproj"
@@ -191,8 +191,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3",
-      "Persistencia >= 1.0.0"
+      "MVCPart.Persistencia >= 1.0.0",
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -202,7 +202,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Metodo\\Metodo.csproj",
-      "projectName": "Metodo",
+      "projectName": "MvcPart.Metodo",
       "projectPath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Metodo\\Metodo.csproj",
       "packagesPath": "C:\\Users\\Fran_\\.nuget\\packages\\",
       "outputPath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Metodo\\obj\\",
@@ -215,8 +215,9 @@
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Nupak": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "http://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {

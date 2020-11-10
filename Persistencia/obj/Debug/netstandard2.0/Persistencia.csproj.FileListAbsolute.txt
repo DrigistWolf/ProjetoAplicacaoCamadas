@@ -7,3 +7,12 @@ C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\obj\Debug\netstand
 C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
 C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb
 C:\Users\Fran_\OneDrive\Área de Trabalho\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache
+C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\bin\Debug\netstandard2.0\Persistencia.deps.json
+C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\bin\Debug\netstandard2.0\Persistencia.dll
+C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\bin\Debug\netstandard2.0\Persistencia.pdb
+C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfoInputs.cache
+C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfo.cs
+C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
+C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb
+C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache

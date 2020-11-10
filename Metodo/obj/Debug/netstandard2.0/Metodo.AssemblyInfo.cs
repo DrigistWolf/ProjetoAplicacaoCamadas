@@ -11,11 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Metodo")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Autonoma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("MIT")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Pacotes nuget para estudo")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Metodo")]
+[assembly: System.Reflection.AssemblyProductAttribute("Lista de serviços")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Metodo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

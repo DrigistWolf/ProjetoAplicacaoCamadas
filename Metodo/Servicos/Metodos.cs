@@ -1,7 +1,8 @@
 ﻿using System;
 using Entity;
-using ServicoPercistencia;
+
 using System.Collections.Generic;
+using Persistencia.Servicos;
 
 namespace Servico
 {
