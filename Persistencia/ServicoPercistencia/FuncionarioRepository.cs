@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Persistencia.Servicos
+namespace Persistencia.ServicoPercistencia
 {
     public class FuncionarioRepository
     {
@@ -16,6 +16,10 @@ namespace Persistencia.Servicos
             lstFuncionarios = new List<Funcionario>();
         }
 
+        public void AddFuncionario(Funcionario funcionario)
+        {
+            bool Teste = addFuncionario(funcionario);
+        }
 
         private void ApagaFuncionario(string nome)
         {
@@ -30,18 +34,27 @@ namespace Persistencia.Servicos
             }
         }
 
-     
         public List<Funcionario> BuscarFuncionario()
         {
             return lstFuncionarios;
         }
 
-        public void addFuncionario(Funcionario funcionario)
+
+
+        public bool addFuncionario(Funcionario funcionario)
         {
-            lstFuncionarios.Add(funcionario);
+            Funcionario func = (from c in lstFuncionarios where c.Nome == funcionario.Nome select c).FirstOrDefault();
+            if (func == null)
+            {
+                return false;
+            }
+
+            return true;
+
+
         }
 
-      
+
 
         public List<Funcionario> Search(string nome = null)
         {

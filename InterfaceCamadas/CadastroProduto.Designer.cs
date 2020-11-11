@@ -1,6 +1,6 @@
 ﻿namespace Separando_aplicações_em_camadas
 {
-    partial class Form1
+    partial class CadastroProduto
     {
         /// <summary>
         /// Variável de designer necessária.

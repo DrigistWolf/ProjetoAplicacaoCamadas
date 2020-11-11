@@ -5,7 +5,7 @@ using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entity
+namespace Persistencia.Entity
 
 {
     public class Produtos

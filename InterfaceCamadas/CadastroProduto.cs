@@ -1,5 +1,5 @@
-﻿using Entity;
-using Servico;
+﻿using Metodo.Servicos;
+using Persistencia.Entity;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -8,26 +8,26 @@ using System.Windows.Forms;
 
 namespace Separando_aplicações_em_camadas
 {
-    public partial class Form1 : Form
+    public partial class CadastroProduto : Form
     {
-        private Metodos serv;
+        private Metodos servform;
         private Produtos prod = new Produtos();
 
-        public Form1()
+        public CadastroProduto()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            serv  = new Metodos();
+            servform = new Metodos();
         }
 
         private void btnExclui_Click(object sender, EventArgs e)
         {
             try
             {
-                serv.Excluiproduto(txtNomeproduto.Text);
+                servform.Excluiproduto(txtNomeproduto.Text);
             }
             catch
             {
@@ -40,7 +40,7 @@ namespace Separando_aplicações_em_camadas
         {
             try
             {
-                if (serv.AdicionaProduto(txtNomeproduto.Text.ToString(), txtValorProduto.Text.ToString(), txtQuantidadeProduto.Text.ToString()))
+                if (servform.AdicionaProduto(txtNomeproduto.Text.ToString(), txtValorProduto.Text.ToString(), txtQuantidadeProduto.Text.ToString()))
                 {
                     MessageBox.Show("Item Cadastrado com sucesso!");
                 }
@@ -60,7 +60,7 @@ namespace Separando_aplicações_em_camadas
         {
             try
             {
-                PreencheLista(serv.RetornaLista());
+                PreencheLista(servform.RetornaLista());
             }
             catch (Exception ex)
             {
@@ -83,7 +83,7 @@ namespace Separando_aplicações_em_camadas
             }
             else
             {
-                List<Produtos> Filtrados = serv.RetornaLista(txtPesquisa.Text.ToString());
+                List<Produtos> Filtrados = servform.RetornaLista(txtPesquisa.Text.ToString());
 
                 popularListView(Filtrados);
             }

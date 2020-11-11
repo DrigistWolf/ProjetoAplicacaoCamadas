@@ -1,10 +1,9 @@
 ﻿using System;
-using Entity;
-
 using System.Collections.Generic;
-using Persistencia.Servicos;
+using Persistencia.Entity;
+using Persistencia.ServicoPercistencia;
 
-namespace Servico
+namespace Metodo.Servicos
 {
     public class Metodos
     {

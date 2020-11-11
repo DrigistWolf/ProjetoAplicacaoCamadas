@@ -1,10 +1,9 @@
-﻿using Entity;
+﻿using Persistencia.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-namespace Persistencia.Servicos
+namespace Persistencia.ServicoPercistencia
 {
     public class PercistenciaServ
     {
