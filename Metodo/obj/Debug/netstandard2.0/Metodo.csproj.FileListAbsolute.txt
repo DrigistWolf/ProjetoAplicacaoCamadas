@@ -22,3 +22,15 @@ C:\ProjetoAplicacaoCamadas\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.csproj.
 C:\ProjetoAplicacaoCamadas\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.csproj.CopyComplete
 C:\ProjetoAplicacaoCamadas\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.dll
 C:\ProjetoAplicacaoCamadas\Metodo\Metodo\obj\Debug\netstandard2.0\Metodo.pdb
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\bin\Debug\netstandard2.0\Metodo.deps.json
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\bin\Debug\netstandard2.0\Metodo.dll
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\bin\Debug\netstandard2.0\Metodo.pdb
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\bin\Debug\netstandard2.0\Persistencia.dll
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\bin\Debug\netstandard2.0\Persistencia.pdb
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\obj\Debug\netstandard2.0\Metodo.csprojAssemblyReference.cache
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\obj\Debug\netstandard2.0\Metodo.AssemblyInfoInputs.cache
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\obj\Debug\netstandard2.0\Metodo.AssemblyInfo.cs
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\obj\Debug\netstandard2.0\Metodo.csproj.CoreCompileInputs.cache
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\obj\Debug\netstandard2.0\Metodo.csproj.CopyComplete
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\obj\Debug\netstandard2.0\Metodo.dll
+C:\Estagio\ProjetoAplicacaoCamadas\Metodo\obj\Debug\netstandard2.0\Metodo.pdb

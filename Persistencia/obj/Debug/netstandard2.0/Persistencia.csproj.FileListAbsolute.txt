@@ -16,3 +16,12 @@ C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\obj\Debug\netstandard2.0\Persiste
 C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
 C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb
 C:\ProjetoAplicacaoCamadas\Metodo\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache
+C:\Estagio\ProjetoAplicacaoCamadas\Persistencia\bin\Debug\netstandard2.0\Persistencia.deps.json
+C:\Estagio\ProjetoAplicacaoCamadas\Persistencia\bin\Debug\netstandard2.0\Persistencia.dll
+C:\Estagio\ProjetoAplicacaoCamadas\Persistencia\bin\Debug\netstandard2.0\Persistencia.pdb
+C:\Estagio\ProjetoAplicacaoCamadas\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfoInputs.cache
+C:\Estagio\ProjetoAplicacaoCamadas\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfo.cs
+C:\Estagio\ProjetoAplicacaoCamadas\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Estagio\ProjetoAplicacaoCamadas\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
+C:\Estagio\ProjetoAplicacaoCamadas\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb
+C:\Estagio\ProjetoAplicacaoCamadas\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache

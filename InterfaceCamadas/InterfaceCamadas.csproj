@@ -33,12 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Metodo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Metodo">
       <HintPath>..\Metodo\bin\Debug\netstandard2.0\Metodo.dll</HintPath>
     </Reference>
-    <Reference Include="Persistencia, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Persistencia">
       <HintPath>..\Metodo\bin\Debug\netstandard2.0\Persistencia.dll</HintPath>
     </Reference>
     <Reference Include="System" />

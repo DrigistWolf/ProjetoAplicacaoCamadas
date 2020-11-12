@@ -17,16 +17,17 @@ namespace Metodo.Servicos
             lstFuncionario = new List<Funcionario>();
         }
 
-        public void ContratarFuncionarios(Funcionario funcionario)
+        public bool ContratarFuncionarios(Funcionario funcionario)
         {
             if (!vereficaFuncionario(funcionario.Nome))
             {
-                repository.addFuncionario(funcionario);
+                repository.AddFuncionario(funcionario);
             }
             else
             {
-                throw new Exception("Produto já cadastrado!");
+                throw new Exception("Funcionario já cadastrado!");
             }
+            return true;
         }
         public bool vereficaFuncionario(string nome)
         {
@@ -37,6 +38,11 @@ namespace Metodo.Servicos
             }
 
             return true;
+        }
+
+        public void DemiteFuncionario(String Nome) 
+        {
+                repository.ApagaFuncionario(Nome);
         }
 
         //isso vai ser implementado assim que a exclusão e inclusão com a lista de funcionarios for adicionada

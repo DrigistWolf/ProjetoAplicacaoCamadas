@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XEkRa4r69rv9LfiLQHf2z3U+xHIdNBWe74VOfD427+ajoT5QHP4fAiZtTmS/ApymiFDBob4yL9e61qetyr8Tvw==",
+  "dgSpecHash": "a+5jdqYw14eBR2r3rp8SFqQejlVfuFbSiN7v2Uo4K1w4zEYHRtQZIIQ0W8ieS6JwOKh2OV1gWsFI5axh4vXO4A==",
   "success": true,
-  "projectFilePath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Estagio\\ProjetoAplicacaoCamadas\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fran_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Fran_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

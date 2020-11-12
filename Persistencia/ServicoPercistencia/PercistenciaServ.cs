@@ -42,7 +42,6 @@ namespace Persistencia.ServicoPercistencia
                     _Lista.Remove(telefone);
                     break;
                 }
-
             }
         }
 

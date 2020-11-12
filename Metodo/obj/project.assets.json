@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Metodo\\Metodo.csproj",
+      "projectUniqueName": "C:\\Estagio\\ProjetoAplicacaoCamadas\\Metodo\\Metodo.csproj",
       "projectName": "MvcPart.Metodo",
-      "projectPath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Metodo\\Metodo.csproj",
+      "projectPath": "C:\\Estagio\\ProjetoAplicacaoCamadas\\Metodo\\Metodo.csproj",
       "packagesPath": "C:\\Users\\Fran_\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Metodo\\obj\\",
+      "outputPath": "C:\\Estagio\\ProjetoAplicacaoCamadas\\Metodo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fran_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -222,8 +222,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\ProjetoAplicacaoCamadas\\Metodo\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Persistencia\\Persistencia.csproj"
+            "C:\\Estagio\\ProjetoAplicacaoCamadas\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Estagio\\ProjetoAplicacaoCamadas\\Persistencia\\Persistencia.csproj"
             }
           }
         }

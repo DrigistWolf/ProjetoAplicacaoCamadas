@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Persistencia.ServicoPercistencia
 {
@@ -16,12 +15,8 @@ namespace Persistencia.ServicoPercistencia
             lstFuncionarios = new List<Funcionario>();
         }
 
-        public void AddFuncionario(Funcionario funcionario)
-        {
-            bool Teste = addFuncionario(funcionario);
-        }
 
-        private void ApagaFuncionario(string nome)
+        public void ApagaFuncionario(string nome)
         {
             foreach (Funcionario func in lstFuncionarios)
             {
@@ -30,7 +25,6 @@ namespace Persistencia.ServicoPercistencia
                     lstFuncionarios.Remove(func);
                     break;
                 }
-
             }
         }
 
@@ -39,22 +33,27 @@ namespace Persistencia.ServicoPercistencia
             return lstFuncionarios;
         }
 
-
-
-        public bool addFuncionario(Funcionario funcionario)
+        public bool VereficaFuncionario(Funcionario funcionario)
         {
             Funcionario func = (from c in lstFuncionarios where c.Nome == funcionario.Nome select c).FirstOrDefault();
             if (func == null)
             {
                 return false;
             }
-
             return true;
-
-
         }
 
-
+        public void AddFuncionario(Funcionario funcionario)
+        {
+            if (!VereficaFuncionario(funcionario))
+            {
+                lstFuncionarios.Add(funcionario);
+            }
+            else
+            {
+                throw new Exception("Funcionario já cadastrado!");
+            }
+        }
 
         public List<Funcionario> Search(string nome = null)
         {
@@ -67,7 +66,6 @@ namespace Persistencia.ServicoPercistencia
                 return lstFuncionarios;
             }
         }
-
     }
 }
 //implementar a procura de um funcionario

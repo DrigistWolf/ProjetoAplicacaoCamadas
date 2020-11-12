@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\Estagio\\ProjetoAplicacaoCamadas\\Persistencia\\Persistencia.csproj",
       "projectName": "MVCPart.Persistencia",
-      "projectPath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Persistencia\\Persistencia.csproj",
+      "projectPath": "C:\\Estagio\\ProjetoAplicacaoCamadas\\Persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\Fran_\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjetoAplicacaoCamadas\\Metodo\\Persistencia\\obj\\",
+      "outputPath": "C:\\Estagio\\ProjetoAplicacaoCamadas\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fran_\\AppData\\Roaming\\NuGet\\NuGet.Config",

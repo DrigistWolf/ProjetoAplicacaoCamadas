@@ -23,16 +23,6 @@ namespace Separando_aplicações_em_camadas
             InitializeComponent();
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnCadastro_Click(object sender, EventArgs e)
         {
             funcionario = new Funcionario();
@@ -45,13 +35,43 @@ namespace Separando_aplicações_em_camadas
 
             try
             {
-                ServicoFuncionario.ContratarFuncionarios(funcionario);
+                if (ServicoFuncionario.ContratarFuncionarios(funcionario))
+                {
+                    MessageBox.Show("Funcionario Cadastrado com sucesso!");
+                }
+                else
+                {
+                    MessageBox.Show("Funcionario já Contratado");
+                }
             }
             catch (Exception ex) 
             {
                 MessageBox.Show(ex.Message);
             }
-
+            LimpaTela();
         }
+
+        private void btnDemissao_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ServicoFuncionario.DemiteFuncionario(txtNome.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Esta Pessoa não foi empregada ainda!");
+            }
+            LimpaTela();
+        }
+
+        public void LimpaTela()
+        {
+            txtNome.Text = null;
+            txtDataNascimento.Text = null;
+            txtNroTelefone.Text = null;
+            txtInscricao.Text = null;
+            txtAdmissao.Text = null;
+        }
+
     }
 }

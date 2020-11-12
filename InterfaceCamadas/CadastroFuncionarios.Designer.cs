@@ -31,9 +31,9 @@
             this.lblNome = new System.Windows.Forms.Label();
             this.lblNroTelefone = new System.Windows.Forms.Label();
             this.lblDataNascimento = new System.Windows.Forms.Label();
-            this.txtAdmissao = new System.Windows.Forms.Label();
+            this.lblAdmissao = new System.Windows.Forms.Label();
             this.lblInscricao = new System.Windows.Forms.Label();
-            this.txtAdimissao = new System.Windows.Forms.TextBox();
+            this.txtAdmissao = new System.Windows.Forms.TextBox();
             this.txtInscricao = new System.Windows.Forms.TextBox();
             this.txtDataNascimento = new System.Windows.Forms.TextBox();
             this.txtNroTelefone = new System.Windows.Forms.TextBox();
@@ -69,14 +69,14 @@
             this.lblDataNascimento.TabIndex = 2;
             this.lblDataNascimento.Text = "Data de Nascimento";
             // 
-            // txtAdmissao
+            // lblAdmissao
             // 
-            this.txtAdmissao.AutoSize = true;
-            this.txtAdmissao.Location = new System.Drawing.Point(141, 90);
-            this.txtAdmissao.Name = "txtAdmissao";
-            this.txtAdmissao.Size = new System.Drawing.Size(54, 13);
-            this.txtAdmissao.TabIndex = 3;
-            this.txtAdmissao.Text = "Adimissão";
+            this.lblAdmissao.AutoSize = true;
+            this.lblAdmissao.Location = new System.Drawing.Point(141, 90);
+            this.lblAdmissao.Name = "lblAdmissao";
+            this.lblAdmissao.Size = new System.Drawing.Size(54, 13);
+            this.lblAdmissao.TabIndex = 3;
+            this.lblAdmissao.Text = "Adimissão";
             // 
             // lblInscricao
             // 
@@ -87,12 +87,12 @@
             this.lblInscricao.TabIndex = 4;
             this.lblInscricao.Text = "Inscrição";
             // 
-            // txtAdimissao
+            // txtAdmissao
             // 
-            this.txtAdimissao.Location = new System.Drawing.Point(143, 106);
-            this.txtAdimissao.Name = "txtAdimissao";
-            this.txtAdimissao.Size = new System.Drawing.Size(116, 20);
-            this.txtAdimissao.TabIndex = 5;
+            this.txtAdmissao.Location = new System.Drawing.Point(143, 106);
+            this.txtAdmissao.Name = "txtAdmissao";
+            this.txtAdmissao.Size = new System.Drawing.Size(116, 20);
+            this.txtAdmissao.TabIndex = 5;
             // 
             // txtInscricao
             // 
@@ -107,7 +107,6 @@
             this.txtDataNascimento.Name = "txtDataNascimento";
             this.txtDataNascimento.Size = new System.Drawing.Size(116, 20);
             this.txtDataNascimento.TabIndex = 7;
-            this.txtDataNascimento.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // txtNroTelefone
             // 
@@ -115,7 +114,6 @@
             this.txtNroTelefone.Name = "txtNroTelefone";
             this.txtNroTelefone.Size = new System.Drawing.Size(120, 20);
             this.txtNroTelefone.TabIndex = 8;
-            this.txtNroTelefone.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // txtNome
             // 
@@ -142,6 +140,7 @@
             this.btnDemissao.TabIndex = 11;
             this.btnDemissao.Text = "Demissão";
             this.btnDemissao.UseVisualStyleBackColor = true;
+            this.btnDemissao.Click += new System.EventHandler(this.btnDemissao_Click);
             // 
             // CadastroFuncionarios
             // 
@@ -154,9 +153,9 @@
             this.Controls.Add(this.txtNroTelefone);
             this.Controls.Add(this.txtDataNascimento);
             this.Controls.Add(this.txtInscricao);
-            this.Controls.Add(this.txtAdimissao);
-            this.Controls.Add(this.lblInscricao);
             this.Controls.Add(this.txtAdmissao);
+            this.Controls.Add(this.lblInscricao);
+            this.Controls.Add(this.lblAdmissao);
             this.Controls.Add(this.lblDataNascimento);
             this.Controls.Add(this.lblNroTelefone);
             this.Controls.Add(this.lblNome);
@@ -173,9 +172,9 @@
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblNroTelefone;
         private System.Windows.Forms.Label lblDataNascimento;
-        private System.Windows.Forms.Label txtAdmissao;
+        private System.Windows.Forms.Label lblAdmissao;
         private System.Windows.Forms.Label lblInscricao;
-        private System.Windows.Forms.TextBox txtAdimissao;
+        private System.Windows.Forms.TextBox txtAdmissao;
         private System.Windows.Forms.TextBox txtInscricao;
         private System.Windows.Forms.TextBox txtDataNascimento;
         private System.Windows.Forms.TextBox txtNroTelefone;
