@@ -1,13 +1,6 @@
 ﻿using Metodo.Servicos;
 using Persistencia.Entity;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Separando_aplicações_em_camadas
@@ -44,10 +37,11 @@ namespace Separando_aplicações_em_camadas
                     MessageBox.Show("Funcionario já Contratado");
                 }
             }
-            catch (Exception ex) 
+            catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+            
             LimpaTela();
         }
 

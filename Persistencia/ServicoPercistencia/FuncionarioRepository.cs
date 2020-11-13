@@ -16,18 +16,6 @@ namespace Persistencia.ServicoPercistencia
         }
 
 
-        public void ApagaFuncionario(string nome)
-        {
-            foreach (Funcionario func in lstFuncionarios)
-            {
-                if (nome == func.Nome)
-                {
-                    lstFuncionarios.Remove(func);
-                    break;
-                }
-            }
-        }
-
         public List<Funcionario> BuscarFuncionario()
         {
             return lstFuncionarios;
@@ -66,8 +54,19 @@ namespace Persistencia.ServicoPercistencia
                 return lstFuncionarios;
             }
         }
+
+        public void ApagaFuncionario(string nome)
+        {
+            foreach (Funcionario func in lstFuncionarios)
+            {
+                if (nome == func.Nome)
+                {
+                    lstFuncionarios.Remove(func);
+                    break;
+                }
+            }
+        }
     }
 }
-//implementar a procura de um funcionario
 
 

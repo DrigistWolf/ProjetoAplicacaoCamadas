@@ -28,5 +28,11 @@ namespace Separando_aplicações_em_camadas
             CadastroFuncionarios FormFuncionarios = new CadastroFuncionarios();
             FormFuncionarios.ShowDialog();
         }
+
+        private void btnCadastroCliente_Click(object sender, EventArgs e)
+        {
+            CadastroCliente FormCliente = new CadastroCliente();
+            FormCliente.ShowDialog();
+        }
     }
 }

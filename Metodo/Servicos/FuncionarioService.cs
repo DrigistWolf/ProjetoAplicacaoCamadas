@@ -17,35 +17,28 @@ namespace Metodo.Servicos
             lstFuncionario = new List<Funcionario>();
         }
 
-        public bool ContratarFuncionarios(Funcionario funcionario)
+        public bool ContratarFuncionarios(Funcionario funcionario)//pode ser void
         {
-            if (!vereficaFuncionario(funcionario.Nome))
+            try
             {
                 repository.AddFuncionario(funcionario);
+                // EnviaEmail();//exemplo de chamada
             }
-            else
+           catch
             {
                 throw new Exception("Funcionario já cadastrado!");
             }
             return true;
         }
-        public bool vereficaFuncionario(string nome)
-        {
-            Funcionario func = (from c in lstFuncionario where c.Nome == nome select c).FirstOrDefault();
-            if (func == null)
-            {
-                return false;
-            }
 
-            return true;
+        public void DemiteFuncionario(String Nome)
+        {
+            repository.ApagaFuncionario(Nome);
         }
 
-        public void DemiteFuncionario(String Nome) 
-        {
-                repository.ApagaFuncionario(Nome);
-        }
-
-        //isso vai ser implementado assim que a exclusão e inclusão com a lista de funcionarios for adicionada
-        //enviar email para diretoria
+        //public void EnviaEmail() 
+        //{
+        //    //criar uma classe Email
+        //}
     }
 }

@@ -30,6 +30,7 @@
         {
             this.btnCadastroProdutos = new System.Windows.Forms.Button();
             this.btnCadastroFuncionario = new System.Windows.Forms.Button();
+            this.btnCadastroCliente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCadastroProdutos
@@ -52,11 +53,22 @@
             this.btnCadastroFuncionario.UseVisualStyleBackColor = true;
             this.btnCadastroFuncionario.Click += new System.EventHandler(this.btnCadastroFuncionario_Click);
             // 
+            // btnCadastroCliente
+            // 
+            this.btnCadastroCliente.Location = new System.Drawing.Point(54, 52);
+            this.btnCadastroCliente.Name = "btnCadastroCliente";
+            this.btnCadastroCliente.Size = new System.Drawing.Size(75, 34);
+            this.btnCadastroCliente.TabIndex = 2;
+            this.btnCadastroCliente.Text = "Cadastro de Clientes";
+            this.btnCadastroCliente.UseVisualStyleBackColor = true;
+            this.btnCadastroCliente.Click += new System.EventHandler(this.btnCadastroCliente_Click);
+            // 
             // OpcaoMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(183, 63);
+            this.ClientSize = new System.Drawing.Size(180, 95);
+            this.Controls.Add(this.btnCadastroCliente);
             this.Controls.Add(this.btnCadastroFuncionario);
             this.Controls.Add(this.btnCadastroProdutos);
             this.Name = "OpcaoMenu";
@@ -70,5 +82,6 @@
 
         private System.Windows.Forms.Button btnCadastroProdutos;
         private System.Windows.Forms.Button btnCadastroFuncionario;
+        private System.Windows.Forms.Button btnCadastroCliente;
     }
 }
